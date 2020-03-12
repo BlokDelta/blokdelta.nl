@@ -1,0 +1,126 @@
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	/* https://css-tricks.com/snippets/css/system-font-stack/ */
+	/* System Fonts as used by GitHub */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	color: #06330a;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.row {
+	padding: 0.5rem 0;
+}
+.row.accent {
+	background-color: #0d6815;
+	color: white;
+}
+.row.accent.red {
+	background-color: #70260e;
+}
+.row.accent.gray {
+	background-color: #545e55;
+}
+.row.accent.blue {
+	background-color: #1b6691;
+}
+.content {
+	margin: auto;
+	max-width: 37rem;
+	padding: 0 1rem;
+}
+
+p {
+	hyphens: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	text-align: center;
+	margin: 2rem auto;
+}
+h1 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.6rem;
+}
+
+
+a {
+	color: #1b6691;
+}
+.row.accent a {
+	color: white;
+}
+
+p.vraag {
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+p.antwoord {
+	margin-top: 0;
+}
+
+q {
+	font-style: italic;
+}
+
+img {
+	max-width: 70%;
+	margin: auto;
+	display: block;
+}
+
+@media(max-width: 600px) {
+	body {
+		font-size: 16px;
+	}
+	img {
+		max-width: 100%;
+	}
+}
+@media(max-width: 400px) {
+	body {
+		font-size: 15px;
+	}
+}
+
+iframe {
+	width: 100%;
+	display: block;
+	height: 90vh;
+	margin-top: 2rem;
+	background: #bc5634;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+
+a.button {
+	display: block;
+	margin: auto;
+	padding: 1rem;
+	border: 4px solid #70260e;
+	border-radius: 1rem;
+
+	display: block;
+	border: 3px solid #70260e;
+	color: #70260e;
+	font-weight: bold;
+	margin: 0 auto;
+	max-width: 28rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	border-radius: 10px;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+a.button:hover {
+	background: #70260e;
+	border-color: #bc5634;
+	color: white;
+}
