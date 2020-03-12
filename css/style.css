@@ -124,3 +124,17 @@ a.button:hover {
 	border-color: #bc5634;
 	color: white;
 }
+
+.button.party {
+	border: 3px solid #afb5b0;
+	color: #545e55;
+}
+a.button:hover {
+	background: #dee5df;
+	border-color: #545e55;
+	color: #545e55;
+}
+.button.party img {
+	max-width: 50%;
+	margin-top: 1rem;
+}
